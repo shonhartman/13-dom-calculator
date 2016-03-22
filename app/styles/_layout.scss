@@ -1,7 +1,3 @@
-body{
-  background:#000;
-}
-
 #calculator{
   width:300px;
   background:#65B55D;
@@ -34,17 +30,14 @@ body{
   border:1px solid grey;
 
 }
-#keypad .extend{
-  width:50%;
 
-}
 #keypad .symbol{
   background:#61B359;
   color:white;
   font-size:30px;
-/*   border-right:none; */
 }
-#keypad .symbolTop{
+
+#keypad .symbol-side{
   background:grey;
   color:white;
   font-size:30px;
