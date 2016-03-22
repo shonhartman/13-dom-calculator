@@ -1,0 +1,88 @@
+body{
+  background:#000;
+}
+
+#calculator{
+  width:300px; <div id="calculator">
+
+  <div class="screen">0</div>
+
+  <div id="keypad">
+    <ul>
+      <li class="symbolTop">C</li>
+      <li class="symbolTop">+/-</li>
+      <li class="symbolTop">%</li>
+      <li class="symbol">/</li>
+      <li>7</li>
+      <li>8</li>
+      <li>9</li>
+      <li class="symbol">x</li>
+      <li>4</li>
+      <li>5</li>
+      <li>6</li>
+      <li class="symbol">-</li>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li class="symbol">+</li>
+      <li class="extend">0</li>
+      <li>.</li>
+      <li class="symbol">=</li>
+
+    </ul>
+
+  </div>
+</div>
+  background:#505050;
+  margin:10px auto;
+  font-family:Arial;
+/*   overflow:hidden; */
+}
+
+.screen{
+  height:70px;
+  width:95%;
+  color:#F0F0F0;
+  font-size:50px;
+  line-height:70px;
+  text-align:right;
+/*   overflow:hidden; */
+  padding:5px;
+
+
+}
+
+
+#keypad li{
+  list-style-type:none;
+  width:25%;
+  height:70px;
+  background:#E0E0E0 ;
+  float:left;
+  text-align:center;
+  line-height:70px;
+/*   -webkit-user-select: none;   */
+/*   -moz-user-select: none;     */
+/*   -ms-user-select: none;       */
+/*   user-select: none; */
+   box-sizing:border-box;
+/*   -moz-box-sizing:border-box; */
+/*   -webkit-box-sizing:border-box; */
+  border:1px solid #000000;
+
+}
+#keypad .extend{
+  width:50%;
+
+}
+#keypad .symbol{
+  background:#fba01f;
+  color:white;
+  font-size:30px;
+/*   border-right:none; */
+}
+#keypad .symbolTop{
+  background:#B8B8B8;
+  color:white;
+  font-size:30px;
+}
