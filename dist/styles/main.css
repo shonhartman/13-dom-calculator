@@ -46,16 +46,17 @@ button {
 
 #answer {
   background-color: #64B255;
-  width: 210px;
-  height: 70px;
+  width: 185px;
+  height: 45px;
   float: right;
+  padding: 25px 25px 0 0;
   text-align: right; }
 
 #numberOne, #numberTwo {
   display: none; }
 
-#addNumbers {
-  border-bottom: 1px solid lightgrey; }
+#addNumbers, #subtractNumbers, #divideNumbers, #multiplyNumbers {
+  border-top: 1px solid lightgrey; }
 
 * {
   outline: none; }
@@ -105,13 +106,14 @@ button {
 
 #answer {
   background-color: #64B255;
-  width: 210px;
-  height: 70px;
+  width: 185px;
+  height: 45px;
   float: right;
+  padding: 25px 25px 0 0;
   text-align: right; }
 
 #numberOne, #numberTwo {
   display: none; }
 
-#addNumbers {
-  border-bottom: 1px solid lightgrey; }
+#addNumbers, #subtractNumbers, #divideNumbers, #multiplyNumbers {
+  border-top: 1px solid lightgrey; }
