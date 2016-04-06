@@ -1,24 +1,71 @@
+* {
+  outline: none;
+}
+
+body {
+  color: white;
+  font-family: arial;
+  font-size: 1.5em;
+}
+
 .container {
-  width: 300px;
+  width: 280px;
   height: 350px;
   background-color: black;
 }
 
-.digit {
+.buttons {
+  width: 70px;
+  float: right;
+}
+
+button {
+  width: 70px;
+  height: 70px;
+  background-color: #83C27D;
+  color: white;
+  border: none;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+.clear {
   background-color: #64B255;
   border: 1px solid lightgrey;
   width: 70px;
   height: 70px;
   float: left;
   text-align: center;
-   line-height:70px;
-   box-sizing:border-box;
+  line-height:70px;
+  box-sizing:border-box;
+}
+
+.digit, #equals {
+  background-color: #64B255;
+  border: 1px solid lightgrey;
+  width: 70px;
+  height: 70px;
+  float: left;
+  text-align: center;
+  line-height:70px;
+  box-sizing:border-box;
 }
 
 #answer {
 background-color: #64B255;
-border: 1px solid lightgrey;
+// border: 1px solid lightgrey;
 width: 210px;
 height: 70px;
+float: right;
+text-align: right;
 
+}
+
+#numberOne, #numberTwo {
+  display: none;
+}
+
+#addNumbers {
+  border-bottom: 1px solid lightgrey;
 }
